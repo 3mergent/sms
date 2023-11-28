@@ -3,8 +3,6 @@ import csv
 from twilio.rest import Client
 from twilio.base.exceptions import TwilioRestException
 
-account_sid = 'ACb45fd1d685cb1e4013a46bcb22ac858c'
-auth_token = '1384b6cbf12340d0dd9b9a1f3a205d1f'
 client = Client(account_sid, auth_token)
 
 errors = []
